@@ -1,0 +1,5 @@
+#1 FIRST BUILD IMAGE.
+===> docker build .
+
+#2 RUN CONTAINER WITH ABOVE CREATED IMAGE.
+===> docker run -p 3000:3000 aboveImageId
