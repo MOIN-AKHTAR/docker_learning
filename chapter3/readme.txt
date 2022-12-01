@@ -1,0 +1,1 @@
+In this tutorial we will start,stop and remove container and image.

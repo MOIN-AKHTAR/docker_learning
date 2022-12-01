@@ -1,0 +1,20 @@
+#1 FIRST BUILD IMAGE.
+===> docker build .
+
+#2 RUN/START CONTAINER WITH ABOVE CREATED IMAGE IN ATTATCHED MODE.
+===> docker run -p 3000:3000 aboveImageId
+
+#3 STOP CONTAINER
+===> docker stop containerId
+
+#4 DELETE CONTAINER
+===> docker rm containerId
+
+#5 RESTART CONTAINER
+===> docker start containerId  // It will start container in detached mode
+===> docker start -ai containerId // It will start container in attached mode
+
+#5 DELETE IMAGE
+===> docker rmi imageId
+
+
