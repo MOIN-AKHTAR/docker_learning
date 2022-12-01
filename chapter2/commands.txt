@@ -1,0 +1,16 @@
+#1 FIRST BUILD IMAGE.
+===> docker build .
+
+#2 RUN CONTAINER WITH ABOVE CREATED IMAGE IN ATTATCHED MODE.
+===> docker run -p 3000:3000 aboveImageId
+===============> OR <====================
+#2 RUN CONTAINER WITH ABOVE CREATED IMAGE IN DETTATCHED MODE.
+===> docker run -p 3000:3000 -d aboveImageId
+
+#3 INORDER TO LOOK INTO LOGS WHILE CONTAINER IN DETTATCHED MODE/
+===> docker logs containerId
+
+
+
+REMEMBER:-
+dockerignore is just like gitignore instead in this file we specify all those content which we don't want to be part of image when building image.
