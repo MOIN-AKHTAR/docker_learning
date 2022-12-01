@@ -1,8 +1,0 @@
-#1 FIRST BUILD IMAGE.
-===> docker build -t image:tag .
-
-#2 RUN/START CONTAINER WITH ABOVE CREATED IMAGE IN ATTATCHED MODE.
-===> docker run -p 3000:3000 --name containerName aboveImageId
-
-
-

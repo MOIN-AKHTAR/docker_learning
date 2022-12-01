@@ -1,1 +1,0 @@
-In this tutorial we will learn how to give name to image and container.
